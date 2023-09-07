@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>教师节快乐！</title>
+    <style>
+        /* 设置背景颜色和图片 */
+        body {
+            background-color: #F4D9DA;
+            background-repeat: no-repeat;
+            background-attachment:fixed;
+            background-size: cover;
+        }
+        /* 设置标题的样式 */
+        h1 {
+            color: #FF0000;
+            text-align: center;
+            font-family: "华文行楷";
+            font-size: 36px;
+            opacity: 0; /* 初始透明度为0 */
+            animation: fadein 2s forwards; /* 添加渐显动画 */
+        }
+        /* 设置段落的样式 */
+        p {
+            color: #777777;
+            text-align: justify;
+            font-family: "华文行楷";
+            font-size: 18px;
+            opacity: 0; /* 初始透明度为0 */
+            animation: fadein 2s forwards; /* 添加渐显动画 */
+        }
+        /* 设置链接的样式 */
+        a {
+            color: #000000;
+            text-decoration: none;
+        }
+        /* 设置图画的样式 */
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 30%;
+            border: 5px solid #FF0000;
+            opacity: 0; /* 初始透明度为0 */
+            animation: fadein 2s forwards; /* 添加渐显动画 */
+        }
+        /* 设置签名的样式 */
+        span {
+            display: block;
+            color: #777777;
+            text-align: right;
+            font-family: "华文行楷";
+            font-size: 18px;
+            opacity: 0; /* 初始透明度为0 */
+            animation: fadein 2s forwards; /* 添加渐显动画 */
+        }
+        /* 定义渐显动画 */
+        @keyframes fadein {
+          to {opacity: 1;} /* 目标透明度为1 */
+        }
+        /* 使用选择器和延迟属性实现标题先渐显，一秒后所有内容全部渐显 */
+        h1 {
+          animation-delay: 0s; /* 标题无延迟开始动画 */
+        }
+
+        p, img, ul, li, span {
+          animation-delay: 1s; /* 段落、图像、签名延迟1秒开始动画 */
+        }
+
+    </style>
+</head>
+<body>
+    <h1>教师节快乐！</h1>
+    <p>敬爱的肖老师：</p>
+    <p>您好！今天我想通过这个网页向您表达我的敬意和感激之情。</p>
+    <p>您是我人生中最重要的老师之一，您不仅教会了我数学知识，还教会了我做人的道理。您的教诲和激励一直伴随着我成长，让我在学习和生活中都受益匪浅。</p>
+    <p>您的数学课总是充满趣味和启发，您用生动的例子和有趣的游戏让我们爱上了数学。您总是耐心地解答我们的疑问，鼓励我们多思考多尝试。您还经常给我们布置一些有挑战性的题目，让我们锻炼自己的逻辑思维和创造力。</p>
+    <p>您不仅是我们的老师，还是我们的朋友。您总是关心我们的身心健康，关注我们的兴趣和特长。您经常和我们聊天，分享您的经历和见解。您还组织了很多有意义的活动，让我们开阔了眼界，增长了见识。</p>
+    <p>肖老师，您是我永远敬仰和感激的人。在这个特别的日子里，我祝愿您身体健康，工作顺利，幸福快乐！</p>
+    <img src="./flower.png" alt=" ">
+    <span>祝您教师节快乐！</span>
+    <span>永远爱戴您的学生——张其臻</span>
+</body>
+</html>
