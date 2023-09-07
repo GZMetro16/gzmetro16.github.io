@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>教师节快乐！</title>
+    <style>
+        /* 设置背景颜色和图片 */
+        body {
+            background-color: #F0F8FF;
+            background-image: url(./bg.png);
+            background-repeat: no-repeat;
+            background-attachment:fixed;
+            background-size: cover;
+        }
+        /* 设置标题的样式 */
+        h1 {
+            color: #FF0000;
+            text-align: center;
+            font-family: "华文行楷";
+            font-size: 36px;
+            opacity: 0; /* 初始透明度为0 */
+            animation: fadein 2s forwards; /* 添加渐显动画 */
+        }
+        /* 设置段落的样式 */
+        p {
+            color: #777777;
+            text-align: justify;
+            font-family: "华文行楷";
+            font-size: 18px;
+            opacity: 0; /* 初始透明度为0 */
+            animation: fadein 2s forwards; /* 添加渐显动画 */
+        }
+        /* 设置链接的样式 */
+        a {
+            color: #000000;
+            text-decoration: none;
+        }
+        /* 设置图画的样式 */
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            border: 5px solid #FF0000;
+            opacity: 0; /* 初始透明度为0 */
+            animation: fadein 2s forwards; /* 添加渐显动画 */
+            width: 100%;
+        }
+        /* 设置签名的样式 */
+        span {
+            display: block;
+            color: #777777;
+            text-align: right;
+            font-family: "华文行楷";
+            font-size: 18px;
+            opacity: 0; /* 初始透明度为0 */
+            animation: fadein 2s forwards; /* 添加渐显动画 */
+        }
+        /* 定义渐显动画 */
+        @keyframes fadein {
+          to {opacity: 1;} /* 目标透明度为1 */
+        }
+        /* 使用选择器和延迟属性实现标题先渐显，一秒后所有内容全部渐显 */
+        h1 {
+          animation-delay: 0s; /* 标题无延迟开始动画 */
+        }
+
+        p, img, ul, li, span {
+          animation-delay: 1s; /* 段落、图像、签名延迟1秒开始动画 */
+        }
+
+    </style>
+</head>
+<body>
+    <h1>教师节快乐！</h1>
+    <p>敬爱的李老师：</p>
+    <p>在这个属于您的节日里，我想对您说声感谢和祝福。您是我最敬重的语文老师，也是我最亲切的班主任。您用智慧和爱心教导了我们读书写字，做人处事。您用严格和温暖培养了我们的品德和能力。您用激情和耐心点燃了我们的梦想和希望。</p>
+    <p>“语文是人类文明的结晶，是人类精神的载体，是人类思想的表达。”在您的教导下，我学会了欣赏语言的美妙，感受文学的魅力，理解文化的内涵。您让我爱上了语文，也让我爱上了学习。</p>
+    <p>您不仅是我们的老师，更是我们的朋友。您关心我们的成长，关注我们的困难，鼓励我们的进步，分享我们的喜悦。您总是给我们信心和动力，让我们勇敢地面对挑战，追求卓越。您总是给我们温暖和支持，让我们快乐地度过每一天，珍惜每一刻。</p>
+    <p>李老师，您是我心中最美丽、最伟大、最可敬的人。在这个特别的日子里，请接受我最真诚的祝福：</p>
+    <p>愿您身体健康，永远年轻；<br>愿您工作顺利，事业有成；<br>愿您家庭幸福，生活美满；<br>愿您桃李满天下，笑口常开！</p>
+    <img src="./flower.png" alt=" ">
+    <span>祝您教师节快乐！</span>
+    <span>永远爱戴您的学生——张其臻</span>
+</body>
+</html>
